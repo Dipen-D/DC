@@ -17,11 +17,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Interfaces", "Drea
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{C4344EB5-C6FD-4A0B-BE96-FE27D5501A62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "DreamCatcher\Persistence\EntityFramework\EntityFramework.csproj", "{D9F24B33-7DFC-446E-8EC5-4911F242168C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamCatcher.EntityFramework", "DreamCatcher\Persistence\EntityFramework\DreamCatcher.EntityFramework.csproj", "{D9F24B33-7DFC-446E-8EC5-4911F242168C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{146DEBC0-CB90-4F30-BC52-EB87A8D1D9C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "DreamCatcher\Test\UnitTest\UnitTest.csproj", "{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Interfaces", "DreamCatcher\Persistence\Persistence.Interfaces\Persistence.Interfaces.csproj", "{3B034372-7110-4784-9E72-4900313C847E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "DreamCatcher\Persistence\Persistence\Persistence.csproj", "{6DC2EA48-4994-47B7-AA16-F0ABC5A1A8E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Locator", "DreamCatcher\Persistence\Persistence.Locator\Persistence.Locator.csproj", "{FCB28616-A7AE-4098-8079-58BFA36BEF76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Locator", "DreamCatcher\Business\Business.Locator\Business.Locator.csproj", "{447A3BC5-FE89-46BD-B839-E6A121C90DE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +61,22 @@ Global
 		{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B034372-7110-4784-9E72-4900313C847E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B034372-7110-4784-9E72-4900313C847E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B034372-7110-4784-9E72-4900313C847E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B034372-7110-4784-9E72-4900313C847E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC2EA48-4994-47B7-AA16-F0ABC5A1A8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC2EA48-4994-47B7-AA16-F0ABC5A1A8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC2EA48-4994-47B7-AA16-F0ABC5A1A8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC2EA48-4994-47B7-AA16-F0ABC5A1A8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB28616-A7AE-4098-8079-58BFA36BEF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB28616-A7AE-4098-8079-58BFA36BEF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB28616-A7AE-4098-8079-58BFA36BEF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB28616-A7AE-4098-8079-58BFA36BEF76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447A3BC5-FE89-46BD-B839-E6A121C90DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447A3BC5-FE89-46BD-B839-E6A121C90DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447A3BC5-FE89-46BD-B839-E6A121C90DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447A3BC5-FE89-46BD-B839-E6A121C90DE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +88,9 @@ Global
 		{F62255A2-5D93-413C-AA85-F1021CA0ACF5} = {2A956808-6CAE-4163-AA77-77EBA72C6FC8}
 		{D9F24B33-7DFC-446E-8EC5-4911F242168C} = {C4344EB5-C6FD-4A0B-BE96-FE27D5501A62}
 		{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B} = {146DEBC0-CB90-4F30-BC52-EB87A8D1D9C6}
+		{3B034372-7110-4784-9E72-4900313C847E} = {C4344EB5-C6FD-4A0B-BE96-FE27D5501A62}
+		{6DC2EA48-4994-47B7-AA16-F0ABC5A1A8E1} = {C4344EB5-C6FD-4A0B-BE96-FE27D5501A62}
+		{FCB28616-A7AE-4098-8079-58BFA36BEF76} = {C4344EB5-C6FD-4A0B-BE96-FE27D5501A62}
+		{447A3BC5-FE89-46BD-B839-E6A121C90DE9} = {2A956808-6CAE-4163-AA77-77EBA72C6FC8}
 	EndGlobalSection
 EndGlobal

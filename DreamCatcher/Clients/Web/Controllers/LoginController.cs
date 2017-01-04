@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Business.Entities.Dtos;
+using Business.Interfaces;
+using Business.Locator;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,8 +17,15 @@ namespace Web.Controllers
         public IMembershipService MembershipService { get; set; }
         public IFormsAuthenticationService FormsService { get; set; }
 
+        private IUserBll UserBll;
+
         protected override void Initialize(RequestContext requestContext)
         {
+            if (UserBll == null)
+            {
+                UserBll = BllManager.GetUserBll();
+            }
+
             if (FormsService == null)
             {
                 FormsService = new FormsAuthenticationService();
@@ -39,21 +49,27 @@ namespace Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (MembershipService.ValidateUser(model.UserName, model.Password))
+                //if (MembershipService.ValidateUser(model.UserName, model.Password))
+                //{
+                //    FormsService.SignIn(model.UserName, model.RememberMe);
+                //    if (Url.IsLocalUrl(returnUrl))
+                //    {
+                //        return Redirect(returnUrl);
+                //    }
+                //    else
+                //    {
+                //        return RedirectToAction("Index", "Home");
+                //    }
+                //}
+                //else
+                //{
+                //    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+                //}
+
+                UserDto userDto = UserBll.GetUser(model.UserName, model.Password);
+                if (userDto == null)
                 {
-                    FormsService.SignIn(model.UserName, model.RememberMe);
-                    if (Url.IsLocalUrl(returnUrl))
-                    {
-                        return Redirect(returnUrl);
-                    }
-                    else
-                    {
-                        return RedirectToAction("Index", "Home");
-                    }
-                }
-                else
-                {
-                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+
                 }
             }
 

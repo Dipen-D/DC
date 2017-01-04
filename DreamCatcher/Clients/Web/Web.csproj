@@ -287,6 +287,20 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business\Business.Entities\Business.Entities.csproj">
+      <Project>{1C10E2F3-4A31-4481-9B58-67E1F55EC354}</Project>
+      <Name>Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business\Business.Interfaces\Business.Interfaces.csproj">
+      <Project>{F62255A2-5D93-413C-AA85-F1021CA0ACF5}</Project>
+      <Name>Business.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business\Business.Locator\Business.Locator.csproj">
+      <Project>{447A3BC5-FE89-46BD-B839-E6A121C90DE9}</Project>
+      <Name>Business.Locator</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
