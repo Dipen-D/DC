@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "DreamCatcher\Persistence\EntityFramework\EntityFramework.csproj", "{D9F24B33-7DFC-446E-8EC5-4911F242168C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{146DEBC0-CB90-4F30-BC52-EB87A8D1D9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "DreamCatcher\Test\UnitTest\UnitTest.csproj", "{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,10 @@ Global
 		{D9F24B33-7DFC-446E-8EC5-4911F242168C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9F24B33-7DFC-446E-8EC5-4911F242168C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9F24B33-7DFC-446E-8EC5-4911F242168C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +63,6 @@ Global
 		{1C10E2F3-4A31-4481-9B58-67E1F55EC354} = {2A956808-6CAE-4163-AA77-77EBA72C6FC8}
 		{F62255A2-5D93-413C-AA85-F1021CA0ACF5} = {2A956808-6CAE-4163-AA77-77EBA72C6FC8}
 		{D9F24B33-7DFC-446E-8EC5-4911F242168C} = {C4344EB5-C6FD-4A0B-BE96-FE27D5501A62}
+		{F22E5D8A-0F76-452A-87BA-2C2B44E06B1B} = {146DEBC0-CB90-4F30-BC52-EB87A8D1D9C6}
 	EndGlobalSection
 EndGlobal

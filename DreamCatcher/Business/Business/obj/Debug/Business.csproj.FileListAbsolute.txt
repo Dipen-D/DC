@@ -1,0 +1,4 @@
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business\bin\Debug\Business.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business\bin\Debug\Business.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business\obj\Debug\Business.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business\obj\Debug\Business.pdb
