@@ -3,3 +3,8 @@ C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Test\UnitTest\bin\Debug\UnitTest
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Test\UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Test\UnitTest\obj\Debug\UnitTest.dll
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Test\UnitTest\obj\Debug\UnitTest.pdb
+E:\DemoProjects\DC_NTier\DreamCatcher\Test\UnitTest\bin\Debug\UnitTest.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Test\UnitTest\bin\Debug\UnitTest.pdb
+E:\DemoProjects\DC_NTier\DreamCatcher\Test\UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Test\UnitTest\obj\Debug\UnitTest.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Test\UnitTest\obj\Debug\UnitTest.pdb

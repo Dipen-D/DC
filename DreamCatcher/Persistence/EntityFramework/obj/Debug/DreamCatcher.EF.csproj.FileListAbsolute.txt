@@ -1,0 +1,9 @@
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.xml
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityLayer.dll.config
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityLayer.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityLayer.pdb
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityLayer.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityLayer.pdb

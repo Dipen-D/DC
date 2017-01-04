@@ -17,14 +17,14 @@ namespace Web.Controllers
         public IMembershipService MembershipService { get; set; }
         public IFormsAuthenticationService FormsService { get; set; }
 
-        private IUserBll UserBll;
+        private IUserBll UserBll = BllManager.GetUserBll();
 
         protected override void Initialize(RequestContext requestContext)
         {
-            if (UserBll == null)
-            {
-                UserBll = BllManager.GetUserBll();
-            }
+            //if (UserBll == null)
+            //{
+            //    UserBll = BllManager.GetUserBll();
+            //}
 
             if (FormsService == null)
             {
@@ -69,7 +69,11 @@ namespace Web.Controllers
                 UserDto userDto = UserBll.GetUser(model.UserName, model.Password);
                 if (userDto == null)
                 {
-
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Home");
                 }
             }
 

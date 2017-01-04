@@ -1,4 +1,4 @@
-namespace DreamCatcher.EntityFramework
+namespace DreamCatcher.EF
 {
     using System;
     using System.Data.Entity;
@@ -8,7 +8,7 @@ namespace DreamCatcher.EntityFramework
     public partial class Dc : DbContext
     {
         public Dc()
-            : base("name=Dc")
+            : base("name=DefaultConnection")
         {
         }
 

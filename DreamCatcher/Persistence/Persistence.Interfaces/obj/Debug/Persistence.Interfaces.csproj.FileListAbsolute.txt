@@ -1,0 +1,7 @@
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\bin\Debug\Persistence.Interfaces.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\bin\Debug\Persistence.Interfaces.pdb
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\bin\Debug\Business.Entities.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\bin\Debug\Business.Entities.pdb
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\obj\Debug\Persistence.Interfaces.csprojResolveAssemblyReference.cache
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\obj\Debug\Persistence.Interfaces.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\obj\Debug\Persistence.Interfaces.pdb

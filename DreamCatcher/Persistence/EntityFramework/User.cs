@@ -1,4 +1,4 @@
-namespace DreamCatcher.EntityFramework
+namespace DreamCatcher.EF
 {
     using System;
     using System.Collections.Generic;

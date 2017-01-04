@@ -1,5 +1,5 @@
 ﻿using Business.Entities.Dtos;
-using DreamCatcher.EntityFramework;
+using DreamCatcher.EF;
 using Persistence.Interfaces;
 using System;
 using System.Collections.Generic;

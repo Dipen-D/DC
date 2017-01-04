@@ -1,0 +1,15 @@
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\Persistence.Locator.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\Persistence.Locator.pdb
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\Persistence.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\Persistence.Interfaces.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\Business.Entities.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\EntityFramework.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\Persistence.Interfaces.pdb
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\Persistence.pdb
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\Business.Entities.pdb
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\EntityFramework.xml
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\obj\Debug\Persistence.Locator.csprojResolveAssemblyReference.cache
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\obj\Debug\Persistence.Locator.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\obj\Debug\Persistence.Locator.pdb
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\EntityLayer.dll
+E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Locator\bin\Debug\EntityLayer.pdb

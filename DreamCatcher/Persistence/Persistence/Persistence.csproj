@@ -52,9 +52,9 @@
       <Project>{1c10e2f3-4a31-4481-9b58-67e1f55ec354}</Project>
       <Name>Business.Entities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EntityFramework\DreamCatcher.EntityFramework.csproj">
+    <ProjectReference Include="..\EntityFramework\DreamCatcher.EF.csproj">
       <Project>{D9F24B33-7DFC-446E-8EC5-4911F242168C}</Project>
-      <Name>DreamCatcher.EntityFramework</Name>
+      <Name>DreamCatcher.EF</Name>
     </ProjectReference>
     <ProjectReference Include="..\Persistence.Interfaces\Persistence.Interfaces.csproj">
       <Project>{3B034372-7110-4784-9E72-4900313C847E}</Project>
