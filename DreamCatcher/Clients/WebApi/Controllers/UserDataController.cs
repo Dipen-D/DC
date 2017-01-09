@@ -11,11 +11,13 @@ using WebApi.Models;
 
 namespace WebApi.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class UserDataController : ApiController
     {
         private IUserBll UserBll = BllManager.GetUserBll();
-        // GET: api/UserData/5
+        
+        // GET: api/    
+        [Route("api/v1/UserData/{id}")]
         public UserDataViewModel Get(int id)
         {
             UserDto userDto = UserBll.GetUserData(id);
@@ -24,6 +26,22 @@ namespace WebApi.Controllers
             {
                 data = new UserDataViewModel();
                 data.UserName = userDto.UserName;
+                data.Email = userDto.Email;
+                data.Pin = userDto.Pin;
+                data.Id = userDto.Id;
+            }
+            return data;
+        }
+
+        [Route("api/v2/UserData/{id}")]
+        public UserDataViewModelV2 Get_v2(int id)
+        {
+            UserDto userDto = UserBll.GetUserData(id);
+            UserDataViewModelV2 data = null;
+            if (userDto != null)
+            {
+                data = new UserDataViewModelV2();
+                data.NickName = userDto.UserName;
                 data.Email = userDto.Email;
                 data.Pin = userDto.Pin;
                 data.Id = userDto.Id;
