@@ -1,8 +1,9 @@
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Entities\bin\Debug\Business.Entities.dll
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Entities\bin\Debug\Business.Entities.pdb
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Entities\obj\Debug\Business.Entities.dll
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Entities\obj\Debug\Business.Entities.pdb
 E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Entities\bin\Debug\Business.Entities.dll
 E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Entities\bin\Debug\Business.Entities.pdb
 E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Entities\obj\Debug\Business.Entities.dll
 E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Entities\obj\Debug\Business.Entities.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Entities\bin\Debug\Business.Entities.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Entities\bin\Debug\Business.Entities.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Entities\obj\Debug\Business.Entities.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Entities\obj\Debug\Business.Entities.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Entities\obj\Debug\Business.Entities.csprojResolveAssemblyReference.cache

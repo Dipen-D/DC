@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Locator", "Drea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Locator", "DreamCatcher\Business\Business.Locator\Business.Locator.csproj", "{447A3BC5-FE89-46BD-B839-E6A121C90DE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "DreamCatcher\Clients\WebApi\WebApi.csproj", "{10158487-2AFF-4F5B-BD1F-F3857F267EDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{447A3BC5-FE89-46BD-B839-E6A121C90DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{447A3BC5-FE89-46BD-B839-E6A121C90DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{447A3BC5-FE89-46BD-B839-E6A121C90DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10158487-2AFF-4F5B-BD1F-F3857F267EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10158487-2AFF-4F5B-BD1F-F3857F267EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10158487-2AFF-4F5B-BD1F-F3857F267EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10158487-2AFF-4F5B-BD1F-F3857F267EDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,5 +98,6 @@ Global
 		{6DC2EA48-4994-47B7-AA16-F0ABC5A1A8E1} = {C4344EB5-C6FD-4A0B-BE96-FE27D5501A62}
 		{FCB28616-A7AE-4098-8079-58BFA36BEF76} = {C4344EB5-C6FD-4A0B-BE96-FE27D5501A62}
 		{447A3BC5-FE89-46BD-B839-E6A121C90DE9} = {2A956808-6CAE-4163-AA77-77EBA72C6FC8}
+		{10158487-2AFF-4F5B-BD1F-F3857F267EDE} = {F8A9F443-DC35-4113-9D76-5CDBE23817BE}
 	EndGlobalSection
 EndGlobal

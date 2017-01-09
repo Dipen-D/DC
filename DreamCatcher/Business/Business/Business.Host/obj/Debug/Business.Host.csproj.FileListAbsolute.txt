@@ -1,0 +1,6 @@
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business\Business.Host\bin\Business.Host.dll.config
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business\Business.Host\bin\Business.Host.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business\Business.Host\bin\Business.Host.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business\Business.Host\obj\Debug\Business.Host.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business\Business.Host\obj\Debug\Business.Host.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business\Business.Host\obj\Debug\Business.Host.csprojResolveAssemblyReference.cache

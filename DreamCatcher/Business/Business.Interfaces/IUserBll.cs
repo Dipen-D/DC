@@ -10,5 +10,7 @@ namespace Business.Interfaces
     public interface IUserBll
     {
         UserDto GetUser(string userName, string password);
+        
+        void RegisterUser(RegisterUserDto data);
     }
 }

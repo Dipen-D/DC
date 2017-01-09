@@ -29,5 +29,10 @@ namespace Business
         {
             return UserDao.GetUser(userName, password);
         }
+
+        public void RegisterUser(RegisterUserDto data)
+        {
+            UserDao.RegisterUser(data);
+        }
     }
 }

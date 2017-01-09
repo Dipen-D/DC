@@ -5,3 +5,10 @@ E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\bin\Deb
 E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\obj\Debug\Persistence.Interfaces.csprojResolveAssemblyReference.cache
 E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\obj\Debug\Persistence.Interfaces.dll
 E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\Persistence.Interfaces\obj\Debug\Persistence.Interfaces.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\Persistence.Interfaces\bin\Debug\Persistence.Interfaces.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\Persistence.Interfaces\bin\Debug\Persistence.Interfaces.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\Persistence.Interfaces\bin\Debug\Business.Entities.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\Persistence.Interfaces\bin\Debug\Business.Entities.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\Persistence.Interfaces\obj\Debug\Persistence.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\Persistence.Interfaces\obj\Debug\Persistence.Interfaces.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\Persistence.Interfaces\obj\Debug\Persistence.Interfaces.pdb

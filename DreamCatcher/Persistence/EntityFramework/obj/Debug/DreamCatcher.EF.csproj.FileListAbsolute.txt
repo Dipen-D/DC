@@ -7,3 +7,16 @@ E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\Enti
 E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityLayer.pdb
 E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityLayer.dll
 E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityLayer.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityLayer.dll.config
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityLayer.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityLayer.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityLayer.Migrations.register_user.resources
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityLayer.Migrations.unique_name.resources
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\Debug\DreamCatcher.EF.csproj.GenerateResource.Cache
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityLayer.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityLayer.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\Debug\DreamCatcher.EF.csprojResolveAssemblyReference.cache

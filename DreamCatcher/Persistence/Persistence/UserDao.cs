@@ -36,5 +36,16 @@ namespace Persistence
             }
             return userDto;
         }
+        
+        public void RegisterUser(RegisterUserDto data)
+        {
+            User newUser = new User();
+            newUser.UserName = data.UserName;
+            newUser.Email= data.Email;
+            newUser.Password = data.Password;
+            newUser.TempRegPIN= data.Pin;
+            dc.Users.Add(newUser);
+            dc.SaveChanges();
+        }
     }
 }

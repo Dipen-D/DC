@@ -3,19 +3,27 @@
 @model LogInModel 
 
 @{
-    ViewBag.Title = "LogIn";
+    ViewBag.Title = "Index";
 }
 
 <h2>LogIn</h2>
 
+<br />
+<img id="waitimage" src="~/Images/Progress.gif" style="height: 100px;display:none;position: fixed;left: 49%;top: 49%;" />
+
 @Scripts.Render("~/bundles/jquery")
-   
-<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"> </script>
-<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"> </script>
+<script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/MicrosoftAjax.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/MicrosoftMvcAjax.js")" type="text/javascript"></script>
 
-@Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errors and try again.")
-
-@using (Html.BeginForm("LogIn", "Login", FormMethod.Post))
+@using (Ajax.BeginForm("Validate", "Login", new AjaxOptions
+{
+    HttpMethod = "POST",
+    UpdateTargetId = "div1",
+    InsertionMode = InsertionMode.Replace,
+    LoadingElementId = "waitimage"
+}))
 {
     <div>
         <fieldset>
@@ -48,3 +56,6 @@
         </fieldset>
     </div>
 }
+<br />
+<div id="div1">
+</div>

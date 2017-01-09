@@ -14,71 +14,82 @@ namespace Web.Controllers
 {
     public class LoginController : Controller
     {
-        public IMembershipService MembershipService { get; set; }
-        public IFormsAuthenticationService FormsService { get; set; }
-
         private IUserBll UserBll = BllManager.GetUserBll();
 
         protected override void Initialize(RequestContext requestContext)
         {
-            //if (UserBll == null)
-            //{
-            //    UserBll = BllManager.GetUserBll();
-            //}
-
-            if (FormsService == null)
-            {
-                FormsService = new FormsAuthenticationService();
-            }
-            if (MembershipService == null)
-            {
-                MembershipService = new AccountMembershipService();
-            }
-
             base.Initialize(requestContext);
         }
 
         // GET: Login
+        [HttpGet]
         public ActionResult Index()
         {
             return View();
         }
-
-        [HttpPost]
-        public ActionResult LogIn(LogInModel model, string returnUrl)
+        
+        public ActionResult Validate()
         {
+            System.Threading.Thread.Sleep(3000);
             if (ModelState.IsValid)
             {
-                //if (MembershipService.ValidateUser(model.UserName, model.Password))
-                //{
-                //    FormsService.SignIn(model.UserName, model.RememberMe);
-                //    if (Url.IsLocalUrl(returnUrl))
-                //    {
-                //        return Redirect(returnUrl);
-                //    }
-                //    else
-                //    {
-                //        return RedirectToAction("Index", "Home");
-                //    }
-                //}
-                //else
-                //{
-                //    ModelState.AddModelError("", "The user name or password provided is incorrect.");
-                //}
-
-                UserDto userDto = UserBll.GetUser(model.UserName, model.Password);
+                string userName = Request.Form["UserName"];
+                string password = Request.Form["Password"];
+                UserDto userDto = UserBll.GetUser(userName, password);
+                LogInModel model = new LogInModel();
                 if (userDto == null)
                 {
-                    return RedirectToAction("Index");
+                    model.IsValidated = false;
+                    return PartialView("_ShowDetails", model);
                 }
                 else
                 {
-                    return RedirectToAction("Index", "Home");
+                    model.IsValidated = true;
+                    return PartialView("_ShowDetails", model);
                 }
             }
+            else
+            {
+                return View();
+            }
+        }
 
-            // If we got this far, something failed, redisplay form
-            return View(model);
+        public ActionResult Register()
+        {
+            return View();
+        }
+
+        public ActionResult AddUser()
+        {
+            if (ModelState.IsValid)
+            {
+                string userName = Request.Form["Nickname"];
+                string pin = Request.Form["TempRegPIN"];
+                string email = Request.Form["Email"];
+                string password = Request.Form["Password"];
+
+                RegisterUserDto user = new RegisterUserDto();
+                user.UserName = userName;
+                user.Email = email;
+                user.Password = password;
+                user.Pin = pin;
+                RegisterViewModel model = new RegisterViewModel();
+
+                try
+                {
+                    UserBll.RegisterUser(user);
+                    model.IsCreated = true;
+                }
+                catch (Exception exception)
+                {
+                    model.IsCreated = false;
+                }
+                return PartialView("_RegisterationDetails", model);
+            }
+            else
+            {
+                return View();
+            }
         }
     }
 }

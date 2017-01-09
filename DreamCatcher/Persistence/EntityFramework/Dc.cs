@@ -10,6 +10,7 @@ namespace DreamCatcher.EF
         public Dc()
             : base("name=DefaultConnection")
         {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<Dc, EntityLayer.Migrations.Configuration>("DefaultConnection"));
         }
 
         public virtual DbSet<User> Users { get; set; }

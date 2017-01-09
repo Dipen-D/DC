@@ -1,7 +1,3 @@
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\bin\Debug\Business.Interfaces.dll
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\bin\Debug\Business.Interfaces.pdb
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\obj\Debug\Business.Interfaces.dll
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\obj\Debug\Business.Interfaces.pdb
 E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Interfaces\bin\Debug\Business.Interfaces.dll
 E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Interfaces\bin\Debug\Business.Interfaces.pdb
 E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Interfaces\bin\Debug\Business.Entities.dll
@@ -9,3 +5,10 @@ E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Interfaces\bin\Debug\Bus
 E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Interfaces\obj\Debug\Business.Interfaces.csprojResolveAssemblyReference.cache
 E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Interfaces\obj\Debug\Business.Interfaces.dll
 E:\DemoProjects\DC_NTier\DreamCatcher\Business\Business.Interfaces\obj\Debug\Business.Interfaces.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\obj\Debug\Business.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\bin\Debug\Business.Interfaces.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\bin\Debug\Business.Interfaces.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\bin\Debug\Business.Entities.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\bin\Debug\Business.Entities.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\obj\Debug\Business.Interfaces.dll
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Business\Business.Interfaces\obj\Debug\Business.Interfaces.pdb

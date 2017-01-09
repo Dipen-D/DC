@@ -1,87 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 using Newtonsoft.Json;
 using System.Web.Security;
 
 namespace Web.Models
 {
     // Models used as parameters to AccountController actions.
-
-    public class AddExternalLoginBindingModel
-    {
-        [Required]
-        [Display(Name = "External access token")]
-        public string ExternalAccessToken { get; set; }
-    }
-
-    public class ChangePasswordBindingModel
-    {
-        [Required]
-        [DataType(DataType.Password)]
-        [Display(Name = "Current password")]
-        public string OldPassword { get; set; }
-
-        [Required]
-        [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
-        [DataType(DataType.Password)]
-        [Display(Name = "New password")]
-        public string NewPassword { get; set; }
-
-        [DataType(DataType.Password)]
-        [Display(Name = "Confirm new password")]
-        [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
-        public string ConfirmPassword { get; set; }
-    }
-
-    public class RegisterBindingModel
-    {
-        [Required]
-        [Display(Name = "Email")]
-        public string Email { get; set; }
-
-        [Required]
-        [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
-        [DataType(DataType.Password)]
-        [Display(Name = "Password")]
-        public string Password { get; set; }
-
-        [DataType(DataType.Password)]
-        [Display(Name = "Confirm password")]
-        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
-        public string ConfirmPassword { get; set; }
-    }
-
-    public class RegisterExternalBindingModel
-    {
-        [Required]
-        [Display(Name = "Email")]
-        public string Email { get; set; }
-    }
-
-    public class RemoveLoginBindingModel
-    {
-        [Required]
-        [Display(Name = "Login provider")]
-        public string LoginProvider { get; set; }
-
-        [Required]
-        [Display(Name = "Provider key")]
-        public string ProviderKey { get; set; }
-    }
-
-    public class SetPasswordBindingModel
-    {
-        [Required]
-        [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
-        [DataType(DataType.Password)]
-        [Display(Name = "New password")]
-        public string NewPassword { get; set; }
-
-        [DataType(DataType.Password)]
-        [Display(Name = "Confirm new password")]
-        [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
-        public string ConfirmPassword { get; set; }
-    }
 
     public class LogInModel
     {
@@ -96,6 +22,77 @@ namespace Web.Models
 
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
+        
+        public bool IsValidated { get; set; }
+    }
+
+
+    public class RegisterViewModel
+    {
+        [Required]
+        [EmailAddress]
+        [Display(Name = "Email")]
+        public string Email { get; set; }
+
+        [Required]
+        [StringLength(30)]
+        [Display(Name = "Username")]
+        [RegularExpression(@"^(?![0-9]*$)[a-zA-Z0-9]+", ErrorMessage = "Username should contain only alphanumeric words.")]
+        public string Nickname { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        [Display(Name = "Country")]
+        public string Country { get; set; }
+
+        [Required]
+        [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 8)]
+        [DataType(DataType.Password)]
+        [Display(Name = "Password")]
+        public string Password { get; set; }
+
+        [DataType(DataType.Password)]
+        [Display(Name = "Confirm password")]
+        [System.ComponentModel.DataAnnotations.Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+        public string ConfirmPassword { get; set; }
+
+        //[DEBUG] PIN TO AVOID THAT THIRD PARTIES REGISTER:
+        public string RightPIN = "5656";
+
+        [Required]
+        [StringLength(4, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 4)]
+        [Display(Name = "Enter PIN")]
+        public string TempRegPIN { get; set; }
+
+        [Display(Name = "I agree to the Terms of Service")]
+        [EnforceTrue(ErrorMessage = "You must agree to the Terms of Use to proceed.")]
+        public bool TOSAccepted { get; set; }
+
+        public bool IsCreated { get; set; }
+    }
+
+    public class EnforceTrueAttribute : ValidationAttribute, IClientValidatable
+    {
+        public override bool IsValid(object value)
+        {
+            if (value == null) return false;
+            if (value.GetType() != typeof(bool)) throw new InvalidOperationException("can only be used on boolean properties.");
+            return (bool)value == true;
+        }
+
+        public override string FormatErrorMessage(string name)
+        {
+            return "The " + name + " field must be checked in order to continue.";
+        }
+
+        public IEnumerable<ModelClientValidationRule> GetClientValidationRules(ModelMetadata metadata, ControllerContext context)
+        {
+            yield return new ModelClientValidationRule
+            {
+                ErrorMessage = String.IsNullOrEmpty(ErrorMessage) ? FormatErrorMessage(metadata.DisplayName) : ErrorMessage,
+                ValidationType = "enforcetrue"
+            };
+        }
     }
 
     public interface IMembershipService

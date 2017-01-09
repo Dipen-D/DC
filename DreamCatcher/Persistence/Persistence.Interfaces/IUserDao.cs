@@ -10,5 +10,7 @@ namespace Persistence.Interfaces
     public interface IUserDao
     {
         UserDto GetUser(string userName, string password);
+
+        void RegisterUser(RegisterUserDto data);
     }
 }
