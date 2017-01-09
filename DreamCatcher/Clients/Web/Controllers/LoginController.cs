@@ -30,7 +30,7 @@ namespace Web.Controllers
         
         public ActionResult Validate()
         {
-            System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(1000);
             if (ModelState.IsValid)
             {
                 string userName = Request.Form["UserName"];

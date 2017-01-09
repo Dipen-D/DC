@@ -47,5 +47,21 @@ namespace Persistence
             dc.Users.Add(newUser);
             dc.SaveChanges();
         }
+
+
+        public UserDto GetUserData(int id)
+        {
+            UserDto userDto = null;
+            User user = dc.Users.FirstOrDefault(u => u.Id == id);
+            if (user != null)
+            {
+                userDto = new UserDto();
+                userDto.Id = user.Id;
+                userDto.UserName = user.UserName;
+                userDto.Pin = user.TempRegPIN;
+                userDto.Email = user.Email;
+            }
+            return userDto;
+        }
     }
 }

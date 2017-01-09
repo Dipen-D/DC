@@ -12,5 +12,7 @@ namespace Persistence.Interfaces
         UserDto GetUser(string userName, string password);
 
         void RegisterUser(RegisterUserDto data);
+
+        UserDto GetUserData(int id);
     }
 }

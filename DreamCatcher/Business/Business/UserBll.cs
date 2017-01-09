@@ -34,5 +34,10 @@ namespace Business
         {
             UserDao.RegisterUser(data);
         }
+
+        public UserDto GetUserData(int id)
+        {
+            return UserDao.GetUserData(id);
+        }
     }
 }
