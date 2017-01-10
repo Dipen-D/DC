@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
 using System.Web.Http.ModelBinding;
+using Business;
+using Business.Entities.Dtos;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
@@ -16,6 +18,8 @@ using Microsoft.Owin.Security.OAuth;
 using WebApi.Models;
 using WebApi.Providers;
 using WebApi.Results;
+using Business.Interfaces;
+using Business.Locator;
 
 namespace WebApi.Controllers
 {
@@ -25,6 +29,7 @@ namespace WebApi.Controllers
     {
         private const string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
+        private IUserBll UserBll = BllManager.GetUserBll();
 
         public AccountController()
         {
@@ -71,6 +76,26 @@ namespace WebApi.Controllers
             }
 
             return Ok();
+        }
+
+        // POST api/Account/Login
+        [AllowAnonymous]
+        [Route("Login")]
+        public async Task<IHttpActionResult> Login(LoginBindingModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            UserDto userDto = UserBll.GetUser(model.UserName, model.Password);
+            if (userDto == null)
+            {
+                return Unauthorized();
+            }
+
+            return Ok();
+            //return userDto;
         }
 
         private IHttpActionResult GetErrorResult(IdentityResult result)
