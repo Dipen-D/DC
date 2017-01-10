@@ -293,3 +293,4 @@ C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Antlr3.Runtime.p
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\System.Web.Http.Owin.xml
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\obj\Debug\Web.dll
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\obj\Debug\Web.pdb
+C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
