@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Owin;
-using Owin;
+//using Owin;
 
-[assembly: OwinStartup(typeof(Web.Startup))]
+//[assembly: OwinStartup(typeof(Web.Startup))]
 
 namespace Web
 {
@@ -12,7 +12,7 @@ namespace Web
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
+            //ConfigureAuth(app);
         }
     }
 }

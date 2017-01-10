@@ -19,4 +19,3 @@ C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\Debug\DreamCatcher.EF.csproj.GenerateResource.Cache
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityLayer.dll
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityLayer.pdb
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Persistence\EntityFramework\obj\Debug\DreamCatcher.EF.csprojResolveAssemblyReference.cache
