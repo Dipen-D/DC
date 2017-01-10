@@ -261,10 +261,6 @@ C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Web.dll.config
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Web.dll
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Web.pdb
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Antlr3.Runtime.dll
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\EntityFramework.dll
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Microsoft.AspNet.Identity.Owin.dll
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Newtonsoft.Json.dll
@@ -294,12 +290,6 @@ C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\System.Web.WebPa
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\System.Web.WebPages.Razor.xml
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Antlr3.Runtime.pdb
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\EntityFramework.xml
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\System.Web.Http.Owin.xml
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\obj\Debug\Web.dll
 C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\obj\Debug\Web.pdb
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\EntityFramework.SqlServer.dll
-C:\Users\Mtech\Documents\GitHub\DC\DreamCatcher\Clients\Web\bin\EntityFramework.SqlServer.xml
