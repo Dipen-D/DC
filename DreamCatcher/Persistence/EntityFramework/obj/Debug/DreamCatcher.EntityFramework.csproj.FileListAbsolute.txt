@@ -1,9 +1,0 @@
-E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.dll.config
-E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.dll
-E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.pdb
-E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
-E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.xml
-E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
-E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\obj\Debug\DreamCatcher.EntityFramework.csprojResolveAssemblyReference.cache
-E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityFramework.dll
-E:\DemoProjects\DC_NTier\DreamCatcher\Persistence\EntityFramework\obj\Debug\EntityFramework.pdb
